@@ -1,3 +1,15 @@
-<p>
-  new-quote works!
-</p>
+
+<h3>Add New Quote to List</h3>
+
+<form #goalForm ='ngForm'>
+  <div class="form-group">
+    <label>Quote Description:</label>
+    <input #newDescription type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label>A Quote By:</label>
+    <input #newSource type="text" class="form-control">
+  </div>
+  <button class="btn btn-primary btn-xs" (click)="submitForm(newDescription.value,
+   newSource.value); newDescription.value=''; newSource.value=''">Add</button>
+</form>
