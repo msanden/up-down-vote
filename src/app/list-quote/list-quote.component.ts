@@ -9,4 +9,5 @@ import { Quote } from '../models/quote.model'
 
 export class ListQuoteComponent {
   @Input() childQuoteList: Quote[];
+
 }
