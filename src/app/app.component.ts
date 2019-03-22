@@ -22,4 +22,9 @@ export class AppComponent {
     new Quote(`I'm not a 'Business-Man'! I'm a Business... man! Let me handle
      my business, damn!`, `Jay-Z`)
   ];
+
+  addQuote(newQuote: Quote) {
+   this.masterQuoteList.push(newQuote);
+ }
+
 }
