@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ListQuoteComponent } from './list-quote/list-quote.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListQuoteComponent
   ],
   imports: [
     BrowserModule
