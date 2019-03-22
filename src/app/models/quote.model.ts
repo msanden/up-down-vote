@@ -1,7 +1,9 @@
 export class Quote {
-  quote: string;
+  description: string;
+  source: string;
 
-  constructor(quote:string){
-    this.quote = quote;
+  constructor(description: string, source: string){
+    this.description = description;
+    this.source = source;
   }
 }
