@@ -1,3 +1,19 @@
 .panel-footer {
   background-color: skyblue;
 }
+
+.align{
+  float: right;
+}
+
+.panel {
+  width: 300px;
+}
+
+.panel-heading {
+  background-color: skyblue;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
